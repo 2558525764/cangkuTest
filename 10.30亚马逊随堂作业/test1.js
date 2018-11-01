@@ -89,7 +89,9 @@ var sliderDiv = document.querySelector('.slider');
 // console.log(imagesDiv);
 
 // //为按钮添加鼠标移入移出事件
-sliderDiv.addEventListener('mouseover', stopChange);//移入
+// sliderDiv.addEventListener('mouseover', stopChange);
+// sliderDiv.addEventListener('mouseover',function (){window.clearInterval(timer);});//移入
+sliderDiv.addEventListener('mouseover',()=>{clearInterval(timer);});
 sliderDiv.addEventListener('mouseout', startChange);//移出
 
 var timer = window.setInterval(changeImg, 1000);//设置间隔器
