@@ -1,0 +1,34 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+boby{
+    font: 12px/1.5"微软雅黑";
+    color: #a3a3a3;
+    background-color: snow
+
+}
+.mod{
+    width: 90px; 
+    height: 430px;
+    background-color: silver;
+
+}
+.mod.top{
+    height: 54px;
+    background-color: aqua;
+}
+.mod.left{
+    float: left;
+    width: 186px;
+    height: 376px;
+    background-color: salmon;
+}
+.mod.right{
+    float: left;
+    width: 794px;
+    height: 376px;
+    background-color: #a3a3a3;
+}
