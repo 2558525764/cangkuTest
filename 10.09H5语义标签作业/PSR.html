@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!-- HTML5中的header元素是一种具有引导和导航作用的结构元素，
+			该元素可以包含所有通常放在页面头部的内容。 -->
+    <header>
+        <h2>软件未来无限</h2>
+        <p>——改变未来，我们正在行动</p>
+    </header>
+    		<!-- nav元素表示页面中链接到其他页面或者本页面其他部分的区块；包含导航连接的区块。
+		主要的导航、站内搜索、二级导航（略有争议）、页面内导航（比如很长的文章） -->
+    <nav>
+        <a href="#">软件技术1</a>
+		<a href="#">软件技术2</a>
+		<a href="#">软件技术3</a>
+		<a href="#">软件技术4</a>
+    </nav>
+    	<!-- article元素代表文档、页面或者应用程序中与上下文不相关的独立部分，
+		该元素经常被用于定义一篇日志、一条新闻或用户评论等。
+		article元素通常使用多个section元素进行划分，
+		一个页面中article元素可以出现多次。 -->
+    <article>
+        <header>
+            <h1>我是第一篇文章标题</h1>
+            <p>时间：2018109</p>
+        </header>
+        <p>具体内容</p>
+    </article>
+    <article>
+        <h2>我是第二篇文章标题</h2>
+        <p>具体内容</p>
+    </article>
+    <!-- aside元素用来定义当前页面或者文章的附属信息部分，
+	它可以包含与当前页面或主要内容相关的引用、侧边栏、广告、导航条等
+	其他类似的有别于主要内容的部分。
+	aside元素的用法主要分为两种：
+    1）被包含在article元素内作为主要内容的附属信息。
+    2）在article元素之外使用，作为页面或站点全局的附属信息部分。 -->  
+    <article>
+        <h1>标题</h1>
+        <section> 主要内容</section>
+        <aside> 相关文章</aside>
+    </article>
+    <aside>右侧菜单</aside>
+     	<!-- section元素用于帮助构建文档概要的语义部分。
+		一个section元素通常由内容和标题组成。
+		在使用section元素时，需要注意以下3点：
+		1.不要将section元素用作设置样式的页面容器，那是div的特性。
+	      section元素并非一个普通的容器元素，当一个容器需要被直接定义样式或通过脚本定义行为时，推荐使用div。
+		2.如果article元素、aside元素或nav元素更符合使用条件，那么不要使用section元素。
+		3.没有标题的内容区块不要使用section元素定义。 -->
+    <article>
+        <header>
+			<h2>小张的个人介绍</h2>
+		</header>
+		<p>小张是一个好学生，是一个帅哥……</p>
+		<section>
+                <details>
+                        <summary>显示列表</summary>
+                <h2>评论：</h2>
+                <details>
+                        <summary>展开</summary>
+			<article>
+				<h3>评论者：A</h3>
+				<p>小张真的很帅</p>
+            </article>
+        </details>
+        <details>
+                <summary>展开</summary>
+			<article>
+				<h3>评论者：B</h3>
+				<p>小张是一个好学生</p>
+            </article>
+        </details>
+        <details>
+            <summary>展开</summary>
+            <article>
+                <h3>评论者：C</h3>
+                <p>小张是谁。</p>
+            </article>
+        </details>
+    </details>
+		</section>
+    </article>
+    <li><a href="../index.html">返回首页</a></li>
+</body>
+</html>
